@@ -19,9 +19,7 @@ class AvnuSwap:
 
     async def swap(self, swap_to_eth = False, data_for_swap = None) -> bool:
         try:
-            ROUTERS_ADDRESSES_LIST = [DefaultContractData.MYSWAP_CONTRACT.get('address'),
-                                      DefaultContractData.JEDISWAP_CONTRACT.get('address'),
-                                      DefaultContractData._10KSWAP_CONTRACT.get('address')]
+            ROUTERS_ADDRESSES_LIST = [DefaultContractData.JEDISWAP_CONTRACT.get('address')]
             if not data_for_swap:
                 data_for_swap = await get_data_for_swap(client=self.client, swap_to_eth=swap_to_eth)
             if data_for_swap == {}:
