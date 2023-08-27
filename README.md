@@ -13,8 +13,6 @@
 
 ✅***JediSwap*** **swaps/deposit/withdraw**
 
-✅***MySwap*** **swaps/deposit/withdraw**
-
 ✅***Avnu*** **swaps**
 
 ✅**Dmail message**
