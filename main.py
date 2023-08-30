@@ -1,5 +1,6 @@
 from asyncio import run
 from src.core import start
+from src.logger import logger
 
 if __name__ == '__main__':
     logger.info(f"\n---This software is written by @flextive. All right are reserved. Current version: 0.1.0---\n\n"
